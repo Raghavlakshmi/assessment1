@@ -5,39 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ISP Website - Jio Style</title>
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <style>
+    img{
+      height:100%;
+      width:80%;
+      margin-left:11.5%;
+      border-radius: 10%;
+      border: transparent;
+      opacity:0.5;
+      
+    }
+    nav{
+      background-color: rgba(255,0,0,1);
+      border-color: black;
+    }
+     #hero{
+      background-color: rgba(255,0,0,0.6);
+     }
+  </style>
 </head>
 <body class="bg-gray-100">
 
  
-  <nav class="bg-blue-600 p-4">
+  <nav class="bg-red-600 p-4">
     <div class="max-w-7xl mx-auto flex items-center justify-between">
-      <a href="#" class="text-white text-3xl font-bold">JioISP</a>
+     <a href="#" class="text-white text-3xl font-bold"><span style="font-style: italic;color: black;">My</span>ISP</a>
       <ul class="flex space-x-6 text-white">
-        <li><a href="#services" class="hover:text-blue-300">Services</a></li>
-        <li><a href="#plans" class="hover:text-blue-300">Plans</a></li>
-        <li><a href="#contact" class="hover:text-blue-300">Contact</a></li>
-        <li><a href="#about" class="hover:text-blue-300">About</a></li>
-        <li><a href="#about" class="hover:text-blue-300">Discover</a></li>
-        <li><a href="#about" class="hover:text-blue-300">Prepaid</a></li>
-        <li><a href="#about" class="hover:text-blue-300">Postpaid</a></li>
-        <li><a href="#about" class="hover:text-blue-300">PayBills</a></li>
+        <li><a href="#services" class="hover:text-red-300">Services</a></li>
+        <li><a href="#plans" class="hover:text-red-300">Plans</a></li>
+        <li><a href="#contact" class="hover:text-red-300">Contact</a></li>
+        <li><a href="#about" class="hover:text-red-300">About</a></li>
+        <li><a href="#about" class="hover:text-red-300">Discover</a></li>
+        <li><a href="#about" class="hover:text-red-300">Prepaid</a></li>
+        <li><a href="#about" class="hover:text-red-300">Postpaid</a></li>
+        <li><a href="#about" class="hover:text-red-300">PayBills</a></li>
       </ul>
     </div>
   </nav>
 
 
-  <section class="bg-blue-700 text-white py-20" id="hero">
+  <section class="bg-red-700 text-white py-20" id="hero">
     <div class="max-w-7xl mx-auto text-center">
-      <h1 class="text-4xl md:text-5xl font-semibold mb-4">Get Ultra-Fast Internet at Your Doorstep</h1>
-      <p class="text-lg mb-6">Choose from a variety of plans to suit your needs. Stream, work, and play without interruption!</p>
-      <a href="#plans" class="bg-white text-blue-700 py-2 px-6 rounded-full text-xl hover:bg-blue-100">Browse Plans</a>
+      <img src="image1.jpg" height="15vh" alt="bye">
+      <h1 class="text-4xl md:text-5xl font-semibold mb-4" id="a">Get Ultra-Fast Internet at Your Doorstep</h1>
+      <p class="text-lg mb-6" id="b">Choose from a variety of plans to suit your needs. Stream, work, and play without interruption!</p>
+      <a href="#plans" class="bg-white text-red-700 py-2 px-6 rounded-full text-xl hover:bg-red-100" id="b">Browse Plans</a>
     </div>
   </section>
 
   
   <section class="py-16" id="services">
     <div class="max-w-7xl mx-auto text-center">
-      <h2 class="text-3xl font-bold text-blue-700 mb-12">Our Services</h2>
+      <h2 class="text-3xl font-bold text-red-700 mb-12">Our Services</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
         <div class="bg-white shadow-lg rounded-lg p-6">
           <h3 class="text-xl font-semibold mb-4">High-Speed Internet</h3>
@@ -58,25 +77,25 @@
  
   <section class="bg-gray-200 py-16" id="plans">
     <div class="max-w-7xl mx-auto text-center">
-      <h2 class="text-3xl font-bold text-blue-700 mb-12">Our Internet Plans</h2>
+      <h2 class="text-3xl font-bold text-red-700 mb-12">Our Internet Plans</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
         <div class="bg-white shadow-lg rounded-lg p-6">
-          <h3 class="text-2xl font-semibold text-blue-700 mb-4">Basic Plan</h3>
+          <h3 class="text-2xl font-semibold text-red-700 mb-4">Basic Plan</h3>
           <p class="text-xl mb-4">Speed: 50 Mbps</p>
-          <p class="text-xl mb-4">Price: $30/month</p>
-          <a href="#contact" class="bg-blue-600 text-white py-2 px-6 rounded-full text-lg hover:bg-blue-700">Get Started</a>
+          <p class="text-xl mb-4">Price: Rs.30/month</p>
+          <a href="#contact" class="bg-red-600 text-white py-2 px-6 rounded-full text-lg hover:bg-red-700">Get Started</a>
         </div>
         <div class="bg-white shadow-lg rounded-lg p-6">
-          <h3 class="text-2xl font-semibold text-blue-700 mb-4">Standard Plan</h3>
+          <h3 class="text-2xl font-semibold text-red-700 mb-4">Standard Plan</h3>
           <p class="text-xl mb-4">Speed: 100 Mbps</p>
-          <p class="text-xl mb-4">Price: $50/month</p>
-          <a href="#contact" class="bg-blue-600 text-white py-2 px-6 rounded-full text-lg hover:bg-blue-700">Get Started</a>
+          <p class="text-xl mb-4">Price: Rs.50/month</p>
+          <a href="#contact" class="bg-red-600 text-white py-2 px-6 rounded-full text-lg hover:bg-red-700">Get Started</a>
         </div>
         <div class="bg-white shadow-lg rounded-lg p-6">
-          <h3 class="text-2xl font-semibold text-blue-700 mb-4">Premium Plan</h3>
+          <h3 class="text-2xl font-semibold text-red-700 mb-4">Premium Plan</h3>
           <p class="text-xl mb-4">Speed: 1 Gbps</p>
-          <p class="text-xl mb-4">Price: $100/month</p>
-          <a href="#contact" class="bg-blue-600 text-white py-2 px-6 rounded-full text-lg hover:bg-blue-700">Get Started</a>
+          <p class="text-xl mb-4">Price: Rs.100/month</p>
+          <a href="#contact" class="bg-red-600 text-white py-2 px-6 rounded-full text-lg hover:bg-red-700">Get Started</a>
         </div>
       </div>
     </div>
@@ -85,16 +104,16 @@
  
   <section class="py-16" id="contact">
     <div class="max-w-7xl mx-auto text-center">
-      <h2 class="text-3xl font-bold text-blue-700 mb-12">Contact Us</h2>
+      <h2 class="text-3xl font-bold text-red-700 mb-12">Contact Us</h2>
       <p class="text-lg mb-6">Got questions or ready to sign up? We're here to help!</p>
-      <a href="mailto:support@jioisp.com" class="bg-blue-600 text-white py-3 px-8 rounded-full text-xl hover:bg-blue-700">Email Us</a>
+      <a href="mailto:support@jioisp.com" class="bg-red-600 text-white py-3 px-8 rounded-full text-xl hover:bg-red-700">Email Us</a>
     </div>
   </section>
 
  
-  <footer class="bg-blue-600 text-white py-4">
+  <footer class="bg-red-600 text-white py-4">
     <div class="max-w-7xl mx-auto text-center">
-      <p>&copy; 2025 JioISP. All rights reserved.</p>
+      <p>&copy; 2025 <span style="font-style: italic;">My</span>ISP. All rights reserved.</p>
     </div>
   </footer>
 
